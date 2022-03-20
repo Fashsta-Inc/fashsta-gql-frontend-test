@@ -26,6 +26,15 @@
 
 .App-link {
   color: #61dafb;
+} 
+
+.user-card {
+  border: 1px solid rgba(153, 153, 200, 0.198);
+  background-color: rgba(214, 196, 196, 0.787);
+  width: 400px;
+  text-align: left;
+  margin: 1.2rem auto;
+  padding: 5px
 }
 
 @keyframes App-logo-spin {
