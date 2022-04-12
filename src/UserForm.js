@@ -20,25 +20,25 @@ export default function UserForm({ handleSubmit, update }) {
     >
       <input
         name="email"
+        value={email}
         placeholder="email"
-        className="mb-1"
+        className="input"
         onChange={(event) => {
           setEmail(event.target.value);
         }}
-        value={email}
       />
       <br />
       <input
         name="name"
         value={name}
         placeholder="what is your name?"
-        className="mb-1"
+        className="input"
         onChange={(event) => {
           setName(event.target.value);
         }}
       />
       <br />
-      <button type="submit">Create User</button>
+      <button className='submit-btn' type="submit">Create User</button>
     </form>
   );
 }
